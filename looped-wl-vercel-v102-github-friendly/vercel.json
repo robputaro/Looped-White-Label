@@ -1,0 +1,10 @@
+{
+  "cleanUrls": true,
+  "trailingSlash": false,
+  "rewrites": [
+    {
+      "source": "/((?!assets/|logo-resizer|background-generator|looped-wl-tool).*)",
+      "destination": "/index.html"
+    }
+  ]
+}
